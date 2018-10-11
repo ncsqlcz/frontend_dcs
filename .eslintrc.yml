@@ -1,0 +1,25 @@
+root: true
+parser: 'babel-eslint'
+parserOptions:
+  sourceType: 'module'
+env:
+  browser: true
+extends: 'standard'
+plugins: ['vue','html']
+
+rules:
+   indent:
+     - 2
+     - 2
+   quotes:
+     - 0
+     - single
+   linebreak-style:
+     - 0
+     - windows
+   semi:
+     - 0
+     - always
+   camelcase:
+     - 0
+     - always

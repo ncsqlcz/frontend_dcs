@@ -1,0 +1,22 @@
+//$color-primary: #20a0ff;//#18c79c
+$color-primary: #409eff;
+$color-active: #00CCFF;
+$color-success: #1CC117;
+$color-warning: #FFCC00;
+$color-error: #d14914;
+
+.color-active{
+  color: $color-active !important;
+}
+
+.color-success{
+  color: $color-success !important;
+}
+
+.color-warning{
+  color: $color-warning !important;
+}
+
+.color-error{
+  color: $color-error !important;
+}
